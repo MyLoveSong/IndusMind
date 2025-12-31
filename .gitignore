@@ -1,0 +1,48 @@
+﻿# 澶фā鍨嬫枃浠?*.safetensors
+*.bin
+*.pth
+*.pt
+*.7z
+*.zip
+
+# Python缂撳瓨
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js渚濊禆
+node_modules/
+npm-debug.log*
+
+# 鏃ュ織鏂囦欢
+*.log
+logs/
+
+# 涓存椂鏂囦欢
+*.tmp
+*.temp
+
+# 鐜鏂囦欢
+venv/
+.venv/
+
+# IDE鏂囦欢
+.vscode/
+.idea/
+
+# 绯荤粺鏂囦欢
+.DS_Store
+Thumbs.db
+
+# 璁粌鏁版嵁鍜屾ā鍨嬶紙濡傛灉涓嶆兂鍏紑锛?data/
+models/
+
+# 澶у瀷璁粌杈撳嚭鏂囦欢
+*.sqlite3
+training_trends_*.png
+loss_curve_*.png
+
+# 澶у瀷椤圭洰鏂囦欢澶癸紙鍖呭惈妯″瀷绛夊ぇ鏂囦欢锛?organized_project/models/
+QWEN3-8B/
+venv/

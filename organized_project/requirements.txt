@@ -1,0 +1,31 @@
+# QWEN3-8B 产业报告生成系统依赖
+# 核心 AI/ML 依赖
+torch>=2.0.0
+transformers>=4.21.0
+peft>=0.4.0
+accelerate>=0.20.0
+bitsandbytes>=0.41.0
+
+# RAG 和检索
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.0
+
+# Web 服务
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+
+# 数据处理
+numpy>=1.21.0
+pandas>=1.5.0
+scikit-learn>=1.0.0
+
+# 工具库
+tqdm>=4.64.0
+requests>=2.28.0
+python-dotenv>=1.0.0
+
+# 可选依赖（用于特定功能）
+# langchain>=0.1.0        # LangChain 集成
+# chromadb>=0.4.0         # 向量数据库
+# streamlit>=1.25.0       # Web UI (如果需要)

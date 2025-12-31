@@ -1,0 +1,53 @@
+{
+  "test_run_time": "2025-12-29T14:10:17.347398",
+  "summary": {
+    "total_tests": 3,
+    "successful_tests": 0,
+    "success_rate": 0.0,
+    "average_score": 0.0
+  },
+  "results": [
+    {
+      "test_file": "test_backend_performance_1.json",
+      "test_name": "数字医疗行业报告生成测试",
+      "success": false,
+      "response_time": 0,
+      "evaluation": {
+        "overall_score": 0,
+        "issues": [
+          "创建会话失败: 404"
+        ]
+      }
+    },
+    {
+      "test_file": "test_backend_performance_2.json",
+      "test_name": "车联网数据赋能分析测试",
+      "success": false,
+      "response_time": 0,
+      "evaluation": {
+        "overall_score": 0,
+        "issues": [
+          "创建会话失败: 404"
+        ]
+      }
+    },
+    {
+      "test_file": "test_backend_performance_3.json",
+      "test_name": "云计算产业综合发展评估测试",
+      "success": false,
+      "response_time": 0,
+      "evaluation": {
+        "overall_score": 0,
+        "issues": [
+          "创建会话失败: 404"
+        ]
+      }
+    }
+  ],
+  "recommendations": [
+    "定期运行性能测试以监控AI质量",
+    "根据测试结果调整提示词和参数",
+    "关注响应时间和资源使用情况",
+    "持续优化AI模型的输出质量"
+  ]
+}
